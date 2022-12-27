@@ -1,9 +1,12 @@
-import { route } from 'react-router-dom'
+import { Route } from 'react-router-dom';
+import Welcome from './components/Welcome';
 
 function App() {
   return (
     <div>
-      <h2>Let's get started!</h2>
+      <Route path="/welcome">
+        <Welcome/>
+        </Route>
     </div>
   );
 }
