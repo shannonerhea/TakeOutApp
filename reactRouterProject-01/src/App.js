@@ -14,6 +14,9 @@ function App() {
         <Route path="/products">
           <Products />
         </Route>
+        <Route path="/products-detail/:productId">
+          <Products />
+        </Route>
       </main>
     </div>
   );
